@@ -1,4 +1,4 @@
-package com.efectivale.credenciales.controller;
+package com.ext.credenciales.controller;
 
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.efectivale.credenciales.models.ApiResponse;
-import com.efectivale.credenciales.models.LoginRequest;
-import com.efectivale.credenciales.models.RequestAPI;
-import com.efectivale.credenciales.serviceImp.CredencialesServiceImpl;
+import com.ext.credenciales.models.ApiResponse;
+import com.ext.credenciales.models.LoginRequest;
+import com.ext.credenciales.models.RequestAPI;
+import com.ext.credenciales.serviceImp.CredencialesServiceImpl;
 
 @RestController
 @RequestMapping({ "/credenciales" })

@@ -1,4 +1,4 @@
-package com.efectivale.credenciales.utils;
+package com.ext.credenciales.utils;
 
 public class Constantes {
 

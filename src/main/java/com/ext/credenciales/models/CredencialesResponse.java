@@ -1,4 +1,4 @@
-package com.efectivale.credenciales.models;
+package com.ext.credenciales.models;
 
 public class CredencialesResponse {
 	

@@ -1,7 +1,4 @@
-package com.efectivale.credenciales.serviceImp;
-
-import com.efectivale.credenciales.serviceDao.CredencialesServiceDao;
-import com.efectivale.credenciales.utils.Utilidades;
+package com.ext.credenciales.serviceImp;
 
 import java.util.List;
 
@@ -9,15 +6,18 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import com.efectivale.credenciales.models.CredencialesGeneradas;
-import com.efectivale.credenciales.models.CredencialesResponse;
-import com.efectivale.credenciales.models.ErrorResponse;
-import com.efectivale.credenciales.models.LoginRequest;
-import com.efectivale.credenciales.models.RequestAPI;
-import com.efectivale.credenciales.models.Response;
-import com.efectivale.credenciales.models.Usuario;
-import com.efectivale.credenciales.models.ApiResponse;
-import com.efectivale.credenciales.models.CredencialDetalle;
+
+import com.ext.credenciales.models.ApiResponse;
+import com.ext.credenciales.models.CredencialDetalle;
+import com.ext.credenciales.models.CredencialesGeneradas;
+import com.ext.credenciales.models.CredencialesResponse;
+import com.ext.credenciales.models.ErrorResponse;
+import com.ext.credenciales.models.LoginRequest;
+import com.ext.credenciales.models.RequestAPI;
+import com.ext.credenciales.models.Response;
+import com.ext.credenciales.models.Usuario;
+import com.ext.credenciales.serviceDao.CredencialesServiceDao;
+import com.ext.credenciales.utils.Utilidades;
 
 @Service
 public class CredencialesServiceImpl implements CredencialesServiceDao {

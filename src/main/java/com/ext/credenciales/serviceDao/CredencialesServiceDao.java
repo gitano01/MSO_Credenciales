@@ -1,11 +1,11 @@
-package com.efectivale.credenciales.serviceDao;
+package com.ext.credenciales.serviceDao;
 
 import org.springframework.http.ResponseEntity;
 
-import com.efectivale.credenciales.models.ApiResponse;
-import com.efectivale.credenciales.models.LoginRequest;
-import com.efectivale.credenciales.models.RequestAPI;
-import com.efectivale.credenciales.models.Usuario;
+import com.ext.credenciales.models.ApiResponse;
+import com.ext.credenciales.models.LoginRequest;
+import com.ext.credenciales.models.RequestAPI;
+import com.ext.credenciales.models.Usuario;
 
 public interface CredencialesServiceDao {
 	public ResponseEntity<ApiResponse> generaCredencial(String valor);

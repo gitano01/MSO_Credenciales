@@ -1,4 +1,4 @@
-package com.efectivale.credenciales.utils;
+package com.ext.credenciales.utils;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -11,11 +11,11 @@ import java.util.Random;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.efectivale.credenciales.dbconfig.PoolConexion;
-import com.efectivale.credenciales.models.CredencialDetalle;
-import com.efectivale.credenciales.models.CredencialesResponse;
-import com.efectivale.credenciales.models.LoginRequest;
-import com.efectivale.credenciales.models.Usuario;
+import com.ext.credenciales.dbconfig.PoolConexion;
+import com.ext.credenciales.models.CredencialDetalle;
+import com.ext.credenciales.models.CredencialesResponse;
+import com.ext.credenciales.models.LoginRequest;
+import com.ext.credenciales.models.Usuario;
 
 @Component
 public class Utilidades {

@@ -9,11 +9,11 @@
 		<version>2.7.4</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.efectivale</groupId>
+	<groupId>com.ext</groupId>
 	<artifactId>MSO_Credenciales</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>MSO_Credenciales</name>
-	<description>Microservicio para el CRUD de Usuarios y CRUD de Credenciales para consumo de APIS efectivale</description>
+	<description>Microservicio para el CRUD de Usuarios y CRUD de Credenciales para consumo de APIS</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>

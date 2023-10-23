@@ -1,4 +1,4 @@
-package com.efectivale.credenciales;
+package com.ext.credenciales;
 
 import java.util.HashMap;
 import java.util.Map;

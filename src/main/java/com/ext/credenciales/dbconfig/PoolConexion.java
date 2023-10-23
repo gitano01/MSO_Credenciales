@@ -1,4 +1,4 @@
-package com.efectivale.credenciales.dbconfig;
+package com.ext.credenciales.dbconfig;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
