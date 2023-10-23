@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+    <head>
+        <!-- basic -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- site metas -->
+        <title>Efectivale Token JWT</title>
+        <link href="https://www.efectivale.com.mx/static/website/img/home/favicon.ico" rel="icon" type="image/x-icon">
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <!-- bootstrap css -->
+        <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
+        <link rel="stylesheet" th:href="@{/css/font-awesome.min.css}">
+
+        <!-- style css -->
+        <link rel="stylesheet" th:href="@{/css/style.css}">
+
+        <!-- body -->
+
+    <body>
+
+        
+        <div class="d-flex">
+            <div class="row">
+                <div th:replace="sideBar" class="col-md-4"></div>
+
+                <div th:replace="divDash" class="col-md-8"></div>            
+            </div>
+            
+
+
+        </div>
+
+    </body>
+
+</html>

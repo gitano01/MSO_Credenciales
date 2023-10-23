@@ -1,0 +1,30 @@
+<div th:fragment="formLogin"
+	class="modal-body border border-dark rounded bg-light bgcolor-gray">
+	<div class="d-flex justify-content-center">
+		<div class="brand_logo_container">
+			<img th:src="@{/img/efv_icon.png}" class="brand_logo" alt="Logo">
+		</div>
+	</div>
+	<form class="form_container" id="logId" action="#">
+		<div class="card-body">
+			<div class="input-group form-group">
+				<div class="input-group-prepend">
+					<span class="input-group-text"><i class="fa fa-user"></i></span>
+				</div>
+				<input class="form-control col-md-12 rounded" type="text" id="username"
+					placeholder="Usuario"/>
+			</div>
+			<div class="input-group form-group">
+				<div class="input-group-prepend">
+					<span class="input-group-text"><i class="fa fa-key"></i></span>
+				</div>
+				<input class="form-control col-md-12 rounded" type="password" id="password"
+					placeholder="Contraseña" />
+			</div>
+			<div class="d-flex justify-content-end">
+				<button type="submit" class="btn btn-custom-primary" id="Loggin" >Iniciar
+					sesión</button>
+			</div>
+		</div>
+	</form>
+</div>
